@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5512" started-at="2023-10-30T16:22:09 IST" finished-at="2023-10-30T16:22:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5512" started-at="2023-10-30T16:22:09 IST" finished-at="2023-10-30T16:22:15 IST">
+      <class name="Scripts.TestCase2">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Scripts.TestCase2@7113b13f]" name="openApp" is-config="true" duration-ms="3453" started-at="2023-10-30T16:22:09 IST" finished-at="2023-10-30T16:22:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:Scripts.TestCase2@7113b13f]" name="tc2" duration-ms="1817" started-at="2023-10-30T16:22:13 IST" finished-at="2023-10-30T16:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.TestCase2@7113b13f]" name="closeApp" is-config="true" duration-ms="199" started-at="2023-10-30T16:22:14 IST" finished-at="2023-10-30T16:22:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=TestCase2.tc2()[pri:0, instance:Scripts.TestCase2@7113b13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Scripts.TestCase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
